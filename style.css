@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVnwjPM1WKErYliAg5LCsbOz_1yOVLuRE_EuxFjfixyw&s");
+    background-size: cover;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+}
+.title{
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.col{
+    margin-top: 200px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.col div{
+    margin-top: 10px;
+    width: 250px;
+    text-align: center;
+}
+input{
+    height: 50px;
+    background-color: rgba(255,255,255,0.9);
+    border-color: transparent;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+}
